@@ -7,7 +7,7 @@
 
 stringa1: .asciiz "Inserisca la sua ral per il calcolo del totale irpef dovuto:"
 stringa2: .asciiz "La tassazione del suo stipendio ammonta a:"
-stringa3: .asciiz "Quindi il suo guadagno netto sará di:"
+stringa3: .asciiz "Quindi il suo guadagno netto sarÃ¡ di:"
 stringa4: .asciiz "\n"
 
 .text
@@ -70,7 +70,7 @@ sub $t0,$t0,$t4      #calcolo stipendio netto e metto in $t0
 
 fine2:
 
-la $t2, stringa2     #il programma comunicherá l'entitá delle tasse dovute e lo stipendio netto con una ral >10000 euro
+la $t2, stringa2     #il programma comunicherÃ¡ l'entitÃ¡ delle tasse dovute e lo stipendio netto con una ral >10000 euro
 li $v0,4
 move $a0,$t2
 syscall
@@ -101,7 +101,7 @@ syscall
 
 fine1:
 li $t1,0             #irpef dovuta con ral < 10000 euro
-la $t2, stringa2     #il programma comunicherá l'entitá delle tasse dovute e lo stipendio netto con una ral <= 10000 euro
+la $t2, stringa2     #il programma comunicherÃ¡ l'entitÃ¡ delle tasse dovute e lo stipendio netto con una ral <= 10000 euro
 li $v0,4
 move $a0,$t2
 syscall
