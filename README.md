@@ -1,1 +1,1 @@
-Questo repository contiene una serie di cartelle, suddivise per argomenti, al cui interno sono contenuti esercizi svolti ed appunti relativi al percorso di laurea triennale in Informatica (L-31) presso l'Univeristá degli Studi di Roma "La Sapienza"
+Questo "repository" contiene una serie di cartelle, suddivise per argomenti, al cui interno sono contenuti esercizi svolti ed appunti relativi al percorso di laurea triennale in Informatica (L-31) presso l'Univeristá degli Studi di Roma "La Sapienza"
