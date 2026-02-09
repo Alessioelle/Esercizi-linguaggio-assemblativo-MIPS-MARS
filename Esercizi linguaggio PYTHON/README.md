@@ -1,0 +1,1 @@
+Questa cartella contiene una serie di esercizi svolti in linguaggio PYTHON per la preparazione all'esame di "Fondamenti di Programmazione"
